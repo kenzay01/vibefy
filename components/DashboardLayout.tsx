@@ -155,7 +155,7 @@ export default function DashboardLayout({
               <MdOutlineMenu className="text-4xl" />
             )}
           </button>
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-indigo-700 via-indigo-300 to-indigo-700 bg-clip-text text-transparent animate-gradient-x ">
+          <h1 className="text-4xl font-bold bg-gradient-to-r from-indigo-700 via-indigo-300 to-indigo-700 bg-clip-text text-transparent animate-gradient-x md:pr-2">
             Vibefy
           </h1>
           {inputItem}
