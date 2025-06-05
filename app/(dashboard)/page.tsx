@@ -1,5 +1,3 @@
-import MusicItem from "@/components/MusicItem";
-import { Fragment } from "react";
 import MusicItemList from "@/components/MusicItemList";
 export default function HomePage() {
   return (

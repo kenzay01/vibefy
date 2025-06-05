@@ -2,7 +2,7 @@ import Image from "next/image";
 import test from "../public/test.png";
 import { FaPlay } from "react-icons/fa";
 
-export default function MusicItem({}: {}) {
+export default function MusicItem() {
   return (
     <div className="flex flex-col items-start gap-4 p-2 md:p-3 hover:bg-neutral-700 rounded-lg transition-colors max-w-4xl w-full cursor-pointer group">
       <div className="w-32 h-32 md:w-42 md:h-42 relative rounded-md overflow-hidden">
